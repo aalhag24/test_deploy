@@ -4,6 +4,8 @@
 
 // No command line arguments, we're just going to use the env vars
 
+// Some small change
+
 let ng_cmd = "ng build"
 
 if (process.env.NG_CMD && process.env.NG_CMD=="nobuild") {
